@@ -1,0 +1,25 @@
+api-version: 1.18
+description: KnockIT by nerotvlive
+version: 2.11.0 (E755)
+website: https://nerotv.live/knockit
+author: nerotvlive
+main: live.nerotv.knockit.Main
+name: KnockIT
+
+softdepend:
+  - floodgate
+
+commands:
+  Build:
+  Ping:
+  Warp:
+    aliases: [warps,warp]
+  World:
+    aliases: [map,maps,worlds]
+  GameMode:
+    aliases: [gm,mode]
+  ChangeMap:
+  Shop:
+  Rank:
+  Disconnect:
+    aliases: [disc,dc]
