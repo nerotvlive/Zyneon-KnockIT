@@ -1,6 +1,6 @@
 api-version: 1.18
 description: KnockIT by nerotvlive
-version: 2.11.0 (E755)
+version: '${project.version}'
 website: https://nerotv.live/knockit
 author: nerotvlive
 main: live.nerotv.knockit.Main
