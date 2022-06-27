@@ -19,6 +19,7 @@ public class JoinLeave implements Listener {
     @EventHandler
     public void onJoin(PlayerJoinEvent e) {
         Player p = e.getPlayer();
+        e.setJoinMessage(null);
         Bukkit.dispatchCommand(Bukkit.getConsoleSender(),"deop "+p.getPlayer().getName());
         PlayerAPI.renewScoreboard(p);
         if(PlayerAPI.isBedrock(p)) {
