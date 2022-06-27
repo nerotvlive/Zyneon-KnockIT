@@ -33,7 +33,11 @@ public class JoinLeave implements Listener {
         ItemManager.giveItems(p);
         p.setLevel(0);
         p.setExp(0);
-        e.setJoinMessage("§8» §a"+p.getName());
+        for(Player all:Bukkit.getOnlinePlayers()) {
+            if(all.getUniqueId()!=p.getUniqueId()) {
+                all.sendMessage("§8» §a"+p.getName());
+            }
+        }
     }
 
     @EventHandler
