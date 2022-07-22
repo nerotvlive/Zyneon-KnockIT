@@ -34,7 +34,7 @@ public class API {
     public static int RestartDay = getYearDay()+1;
     public static String noPerms = "§cDas darst du nicht!";
     public static String noPlayer = "§cDieser Spieler wurde nicht gefunden!";
-    public static String Prefix = "§dKnockIT §8» §7";
+    public static String Prefix = "§9KnockIT §8» §7";
 
     public static PluginManager PM = Bukkit.getPluginManager();
     public static String date;
@@ -72,11 +72,11 @@ public class API {
 
     public static void initConfig() {
         //INIT
-        ConfigAPI.checkEntry("Core.Init.Line01","§5█§5█§5█§5█§5█§5█§5█§8╗§5█§5█§8╗§8░§8░§8░§5█§5█§8╗§5█§5█§5█§8╗§8░§8░§5█§5█§8╗§5█§5█§5█§5█§5█§5█§5█§8╗§8░§5█§5█§5█§5█§5█§8╗§8░§5█§5█§5█§8╗§8░§8░§5█§5█§8╗",Config,cfg);
-        ConfigAPI.checkEntry("Core.Init.Line02","§8╚§8═§8═§8═§8═§5█§5█§8║§8╚§5█§5█§8╗§8░§5█§5█§8╔§8╝§5█§5█§5█§5█§8╗§8░§5█§5█§8║§5█§5█§8╔§8═§8═§8═§8═§8╝§5█§5█§8╔§8═§8═§5█§5█§8╗§5█§5█§5█§5█§8╗§8░§5█§5█§8║",Config,cfg);
-        ConfigAPI.checkEntry("Core.Init.Line03","§8░§8░§5█§5█§5█§8╔§8═§8╝§8░§8╚§5█§5█§5█§5█§8╔§8╝§8░§5█§5█§8╔§5█§5█§8╗§5█§5█§8║§5█§5█§5█§5█§5█§8╗§8░§8░§5█§5█§8║§8░§8░§5█§5█§8║§5█§5█§8╔§5█§5█§8╗§5█§5█§8║",Config,cfg);
-        ConfigAPI.checkEntry("Core.Init.Line04","§5█§5█§8╔§8═§8═§8╝§8░§8░§8░§8░§8╚§5█§5█§8╔§8╝§8░§8░§5█§5█§8║§8╚§5█§5█§5█§5█§8║§5█§5█§8╔§8═§8═§8╝§8░§8░§5█§5█§8║§8░§8░§5█§5█§8║§5█§5█§8║§8╚§5█§5█§5█§5█§8║",Config,cfg);
-        ConfigAPI.checkEntry("Core.Init.Line05","§5█§5█§5█§5█§5█§5█§5█§8╗§8░§8░§8░§5█§5█§8║§8░§8░§8░§5█§5█§8║§8░§8╚§5█§5█§5█§8║§5█§5█§5█§5█§5█§5█§5█§8╗§8╚§5█§5█§5█§5█§5█§8╔§8╝§5█§5█§8║§8░§8╚§5█§5█§5█§8║",Config,cfg);
+        ConfigAPI.checkEntry("Core.Init.Line01","§9█§9█§9█§9█§9█§9█§9█§8╗§9█§9█§8╗§8░§8░§8░§9█§9█§8╗§9█§9█§9█§8╗§8░§8░§9█§9█§8╗§9█§9█§9█§9█§9█§9█§9█§8╗§8░§9█§9█§9█§9█§9█§8╗§8░§9█§9█§9█§8╗§8░§8░§9█§9█§8╗",Config,cfg);
+        ConfigAPI.checkEntry("Core.Init.Line02","§8╚§8═§8═§8═§8═§9█§9█§8║§8╚§9█§9█§8╗§8░§9█§9█§8╔§8╝§9█§9█§9█§9█§8╗§8░§9█§9█§8║§9█§9█§8╔§8═§8═§8═§8═§8╝§9█§9█§8╔§8═§8═§9█§9█§8╗§9█§9█§9█§9█§8╗§8░§9█§9█§8║",Config,cfg);
+        ConfigAPI.checkEntry("Core.Init.Line03","§8░§8░§9█§9█§9█§8╔§8═§8╝§8░§8╚§9█§9█§9█§9█§8╔§8╝§8░§9█§9█§8╔§9█§9█§8╗§9█§9█§8║§9█§9█§9█§9█§9█§8╗§8░§8░§9█§9█§8║§8░§8░§9█§9█§8║§9█§9█§8╔§9█§9█§8╗§9█§9█§8║",Config,cfg);
+        ConfigAPI.checkEntry("Core.Init.Line04","§9█§9█§8╔§8═§8═§8╝§8░§8░§8░§8░§8╚§9█§9█§8╔§8╝§8░§8░§9█§9█§8║§8╚§9█§9█§9█§9█§8║§9█§9█§8╔§8═§8═§8╝§8░§8░§9█§9█§8║§8░§8░§9█§9█§8║§9█§9█§8║§8╚§9█§9█§9█§9█§8║",Config,cfg);
+        ConfigAPI.checkEntry("Core.Init.Line05","§9█§9█§9█§9█§9█§9█§9█§8╗§8░§8░§8░§9█§9█§8║§8░§8░§8░§9█§9█§8║§8░§8╚§9█§9█§9█§8║§9█§9█§9█§9█§9█§9█§9█§8╗§8╚§9█§9█§9█§9█§9█§8╔§8╝§9█§9█§8║§8░§8╚§9█§9█§9█§8║",Config,cfg);
         ConfigAPI.checkEntry("Core.Init.Line06","§8╚§8═§8═§8═§8═§8═§8═§8╝§8░§8░§8░§8╚§8═§8╝§8░§8░§8░§8╚§8═§8╝§8░§8░§8╚§8═§8═§8╝§8╚§8═§8═§8═§8═§8═§8═§8╝§8░§8╚§8═§8═§8═§8═§8╝§8░§8╚§8═§8╝§8░§8░§8╚§8═§8═§8╝",Config,cfg);
 
         //SETTINGS
@@ -98,7 +98,7 @@ public class API {
 
         //TABLIST
         ConfigAPI.checkEntry("Core.Tablist.Image","https://nerotv.live/zyneon.png",Config,cfg);
-        ConfigAPI.checkEntry("Core.Tablist.Header"," \n §5zyneonstudios.com §8● §7Minecraft - aber mehr \n ",Config,cfg);
+        ConfigAPI.checkEntry("Core.Tablist.Header"," \n §9zyneonstudios.com §8● §7Minecraft - aber mehr \n ",Config,cfg);
         ConfigAPI.checkEntry("Core.Tablist.Footer"," \n §9https://www.zyneonstudios.com \n §7sponsored by §ftube-hosting.de \n ",Config,cfg);
     }
 
@@ -363,12 +363,12 @@ public class API {
             sendConsoleMessage(cfg.getString("Core.Init.Line06"));
             sendConsoleMessage("§fPlugin by §cnerotvlive§f!");
         } else {
-            sendConsoleMessage("§5Lobbysystem init... §7couldn't find bigfont...");
-            sendConsoleMessage("§dLobbysystem init... §7couldn't find bigfont...");
-            sendConsoleMessage("§5Lobbysystem init... §7couldn't find bigfont...");
-            sendConsoleMessage("§dLobbysystem init... §7couldn't find bigfont...");
-            sendConsoleMessage("§5Lobbysystem init... §7couldn't find bigfont...");
-            sendConsoleMessage("§dLobbysystem init... §7couldn't find bigfont...");
+            sendConsoleMessage("§9Lobbysystem init... §7couldn't find bigfont...");
+            sendConsoleMessage("§9Lobbysystem init... §7couldn't find bigfont...");
+            sendConsoleMessage("§9Lobbysystem init... §7couldn't find bigfont...");
+            sendConsoleMessage("§9Lobbysystem init... §7couldn't find bigfont...");
+            sendConsoleMessage("§9Lobbysystem init... §7couldn't find bigfont...");
+            sendConsoleMessage("§9Lobbysystem init... §7couldn't find bigfont...");
             sendConsoleMessage("§fPlugin by §cnerotvlive§f!");
         }
     }

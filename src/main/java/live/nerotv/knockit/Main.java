@@ -129,10 +129,10 @@ public class Main extends JavaPlugin {
             Scoreboard.registerNewTeam("01Creator");
             Scoreboard.registerNewTeam("02Premium");
             Scoreboard.registerNewTeam("03Spieler");
-            Scoreboard.getTeam("00000Team").setPrefix("§5Team §8● §f");
-            Scoreboard.getTeam("01Creator").setPrefix("§5Creator §8● §f");
-            Scoreboard.getTeam("02Premium").setPrefix("§dPremium §8● §f");
-            Scoreboard.getTeam("03Spieler").setPrefix("§dUser §8● §f");
+            Scoreboard.getTeam("00000Team").setPrefix("§9Team §8● §f");
+            Scoreboard.getTeam("01Creator").setPrefix("§9Creator §8● §f");
+            Scoreboard.getTeam("02Premium").setPrefix("§9Premium §8● §f");
+            Scoreboard.getTeam("03Spieler").setPrefix("§9User §8● §f");
             Scoreboard.getTeam("00000Team").setCanSeeFriendlyInvisibles(false);
             Scoreboard.getTeam("01Creator").setCanSeeFriendlyInvisibles(false);
             Scoreboard.getTeam("02Premium").setCanSeeFriendlyInvisibles(false);

@@ -18,7 +18,7 @@ public class ChangeMap implements CommandExecutor {
                 s.sendMessage(API.Prefix+"Du hast die Map geändert!");
             }
             MapChanger.changeMap();
-            Bukkit.broadcastMessage("§dKnockIT §8» §7Die Map wurde gewechselt!");
+            Bukkit.broadcastMessage("§9KnockIT §8» §7Die Map wurde gewechselt!");
             for(Player all : Bukkit.getOnlinePlayers()) {
                 all.playSound(all.getLocation(),Sound.ENTITY_ENDERMAN_TELEPORT,100,100);
             }
